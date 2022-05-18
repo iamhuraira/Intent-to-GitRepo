@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickfunction(View view) {
-        String url = "http://www.example.com";
+        String url = "https://github.com/iamhuraira/Intent-to-GitRepo";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
